@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/user"
         android:layout_below="@+id/txtId"
-        android:text="Usuario" />
+        android:text="Usuario"
+        android:layout_alignLeft="@+id/user" />
 
     <EditText
         android:id="@+id/user"
@@ -41,7 +42,8 @@
         android:background="@android:color/holo_green_dark"
         android:onClick="registrar"
         android:text="Registrar"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:id="@+id/textView3"
@@ -50,7 +52,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView"
         android:layout_marginTop="134dp"
-        android:text="Telefono" />
+        android:text="Telefono"
+        android:layout_alignLeft="@+id/textView" />
 
     <Button
         android:id="@+id/button"
@@ -61,7 +64,8 @@
         android:background="@android:color/background_light"
         android:onClick="cancelar"
         android:text="Cancelar"
-        android:textColor="@android:color/holo_green_dark" />
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_alignParentLeft="true" />
 
     <EditText
         android:id="@+id/password"
@@ -78,7 +82,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView"
         android:layout_below="@+id/password"
-        android:text="Confirmar Contraseña" />
+        android:text="Confirmar Contraseña"
+        android:layout_alignLeft="@+id/textView" />
 
     <EditText
         android:id="@+id/txtConfirmar"
